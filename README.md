@@ -67,17 +67,6 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - On import, Avorio can fit FSRS parameters to your own Anki review log rather than using generic defaults.
 - Avorio uses its own FSRS-5 implementation in a shared Rust core, exposed to SwiftUI through [UniFFI](https://github.com/mozilla/uniffi-rs).
 
-### [BrioVocab](https://briovocab.com)
-
-BrioVocab is a French vocabulary app for CEFR A1–B2 learners, built around FSRS-6. It offers ready-made illustrated word sets for each level, plus the option to add your own words and phrases. Two study modes: Flip Cards (illustrated flashcards) and Super Coach (active recall exercises).
-
-- FSRS-6 schedules reviews for every word; personalized parameters are recalculated from each learner's review history.
-- Illustrated French vocabulary decks organized by CEFR level (A1, A2, B1, B2) — no deck building required.
-- Suited for DELF A1–B2 prep and daily French vocabulary practice; an Anki alternative with pictures and ready-made French content.
-
-Available on [App Store](https://apps.apple.com/app/id6793255945) and [Google Play](https://play.google.com/store/apps/details?id=com.briovocab.googleplay.app&referrer=awesome-fsrs).
-
-
 #### [Discito](https://discito.app)
 
   Discito is a native iOS flashcard app built around FSRS-6, with iCloud sync, on-device AI card generation, lecture-audio-to-flashcards, image occlusion authoring, and full-fidelity `.apkg` import/export. One-time purchase, no subscription.
@@ -249,6 +238,16 @@ Native incremental reading with integrated FSRS scheduling, powered by [ts-fsrs]
 - It uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) to schedule reviews of JLPT N5 - N1 vocabulary and grammar flashcards.
 - Speech-based JLPT grammar flashcard reviews: translate English prompts into Japanese aloud, applying grammar points in context while reinforcing memory through speech.
 - [Speech-based Japanese verb conjugation practice](https://www.youtube.com/watch?v=6ehilb5dzyc) with instant feedback to strengthen active recall of verb forms and speaking confidence.
+
+#### [BrioVocab](https://briovocab.com)
+
+BrioVocab is a French vocabulary app for CEFR A1–B2 learners, built around FSRS-6. It offers ready-made illustrated word sets for each level, plus the option to add your own words and phrases. Two study modes: Flip Cards (illustrated flashcards) and Super Coach (active recall exercises).
+
+- FSRS-6 schedules reviews for every word; personalized parameters are recalculated from each learner's review history.
+- Illustrated French vocabulary decks organized by CEFR level (A1, A2, B1, B2) — no deck building required.
+- Suited for DELF A1–B2 prep and daily French vocabulary practice; an Anki alternative with pictures and ready-made French content.
+
+Available on [App Store](https://apps.apple.com/app/id6793255945) and [Google Play](https://play.google.com/store/apps/details?id=com.briovocab.googleplay.app&referrer=awesome-fsrs).
 
 #### [Chessbook](https://chessbook.com/)
 
